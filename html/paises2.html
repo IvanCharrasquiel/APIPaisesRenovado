@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../monedas.js"></script>
+</head>
+<body>
+
+    <select onchange="adicionarMonedasSelect()" id="selectPaises">
+        <option value="">Escoger un país</option>
+    </select>
+
+
+
+    <table id="tablaPaises">
+        <tr>
+            <th>Nombre Pais</th>
+            <th>Moneda</th>
+        </tr>
+
+        <script>
+            poblarDatosPaises()
+        </script>
+    </table>
+
+
+</body>
+</html>
